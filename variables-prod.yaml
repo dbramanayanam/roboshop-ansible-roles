@@ -1,0 +1,11 @@
+MONGODB_HOST: mongodb-prod.dineshdevops.online
+MYSQL_HOST: mysql-prod.dineshdevops.online 
+REDIS_HOST: redis-prod.dineshdevops.online 
+RABBITMQ_HOST: rabbitmq-prod.dineshdevops.online 
+FRONTEND_HOST: frontend-prod.dineshdevops.online 
+CATALOGUE_HOST: catalogue-prod.dineshdevops.online 
+CART_HOST: cart-prod.dineshdevops.online 
+USER_HOST: user-prod.dineshdevops.online 
+SHIPPING_HOST: shipping-prod.dineshdevops.online 
+PAYMENT_HOST: payment-prod.dineshdevops.online 
+DISPATCH_HOST: dispatch-prod.dineshdevops.online
