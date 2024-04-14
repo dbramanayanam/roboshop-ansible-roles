@@ -1,0 +1,16 @@
+    - name: application_setup
+      ansible.builtin.import_role:
+        name: common
+        tasks_from: app-setup
+    - name: java-setup
+      ansible.builtin.import_role: 
+        name: common
+        tasks_from: java-setup  
+    - name: configurings service 
+      ansible.builtin.import_role:
+        name: common
+        tasks_from: service
+    - name: Installing mysql and loading schema
+      ansible.builtin.import_role:
+         name: common
+         tasks_from: mysql-setup
